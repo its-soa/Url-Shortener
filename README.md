@@ -63,9 +63,9 @@ Input the encoded URL to decode it back.
 
 ## Preview
 <p align="center">
-  Encoded URL: <img src="/https://alert-app-v2.s3.us-east-1.amazonaws.com/videtest/Screenshot+2025-01-24+at+17.52.57.png" width="300" alt="Encoded URL">
+  Encoded URL: <img src="https://alert-app-v2.s3.us-east-1.amazonaws.com/videtest/Screenshot+2025-01-24+at+17.52.57.png" alt="Encoded URL">
 
-  Decoded URL: <img src="https://alert-app-v2.s3.us-east-1.amazonaws.com/videtest/Screenshot+2025-01-24+at+17.53.34.png" width="300" alt="Decoded URL">
+  Decoded URL: <img src="https://alert-app-v2.s3.us-east-1.amazonaws.com/videtest/Screenshot+2025-01-24+at+17.53.34.png" alt="Decoded URL">
 </p>
 
 ## How to Use the Project API With Postman
