@@ -26,7 +26,7 @@ Follow these steps to set up and run the project:
 ### 1. Clone the Repository
 Download or clone the project to your computer:
 ```bash
-git clone <repository-url>
+git clone https://github.com/its-soa/Url-Shortener.git
 cd url-shortener
 ```
 
