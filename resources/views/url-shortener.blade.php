@@ -68,60 +68,6 @@
 
     </div>
 
-
-    {{-- <script>
-        document.getElementById('shortenForm').addEventListener('submit', async (e) => {
-            e.preventDefault();
-            const originalUrl = document.getElementById('originalUrl').value;
-
-            const response = await fetch('/encode', {
-                method: 'POST',
-                headers: {
-                    'Content-Type': 'application/json',
-                    'Accept': 'application/json'
-                },
-                body: JSON.stringify({ url: originalUrl })
-            });
-
-            const result = await response.json();
-            const outputDiv = document.getElementById('shortenedUrl');
-
-            if (response.ok) {
-                outputDiv.textContent = `Short URL: ${result.short_url}`;
-                outputDiv.classList.remove('d-none');
-            } else {
-                outputDiv.textContent = result.error || 'An error occurred.';
-                outputDiv.classList.replace('alert-success', 'alert-danger');
-                outputDiv.classList.remove('d-none');
-            }
-        });
-
-        document.getElementById('decodeForm').addEventListener('submit', async (e) => {
-            e.preventDefault();
-            const shortUrl = document.getElementById('shortUrl').value;
-
-            const response = await fetch('/decode', {
-                method: 'POST',
-                headers: {
-                    'Content-Type': 'application/json',
-                    'Accept': 'application/json'
-                },
-                body: JSON.stringify({ short_url: shortUrl })
-            });
-
-            const result = await response.json();
-            const outputDiv = document.getElementById('originalUrl');
-
-            if (response.ok) {
-                outputDiv.textContent = `Original URL: ${result.original_url}`;
-                outputDiv.classList.remove('d-none');
-            } else {
-                outputDiv.textContent = result.error || 'An error occurred.';
-                outputDiv.classList.replace('alert-info', 'alert-danger');
-                outputDiv.classList.remove('d-none');
-            }
-        });
-    </script> --}}
 </body>
 
 </html>
