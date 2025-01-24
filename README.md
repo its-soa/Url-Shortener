@@ -55,6 +55,19 @@ The project is now running at `http://127.0.0.1:8000`.
 
 ---
 
+## How to Use the Project 
+
+Once running, enter your preferred url and watch it get decoded below.
+
+Input the encoded URL to decode it back.
+
+## Preview
+<p align="center">
+  Encoded URL: <img src="/https://alert-app-v2.s3.us-east-1.amazonaws.com/videtest/Screenshot+2025-01-24+at+17.52.57.png" width="300" alt="Encoded URL">
+
+  Decoded URL: <img src="https://alert-app-v2.s3.us-east-1.amazonaws.com/videtest/Screenshot+2025-01-24+at+17.53.34.png" width="300" alt="Decoded URL">
+</p>
+
 ## How to Use the Project API With Postman
 
 Use a tool like Postman, or any HTTP client to interact with the API endpoints.
@@ -74,6 +87,7 @@ Use a tool like Postman, or any HTTP client to interact with the API endpoints.
 - **Success:**
   ```json
   {
+    "original_url": "https://www.thisisalongdomain.com/with/some/parameters?and=here_too",
     "short_url": "http://short.est/1eeba7"
   }
   ```
