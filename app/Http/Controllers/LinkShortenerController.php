@@ -74,6 +74,7 @@ class LinkShortenerController extends Controller
             ->with('decoded_url', $urlRecord->original_url);
     }
 
+    // This can be tested using Postman
     public function encodeAPI(Request $request)
     {
 
@@ -118,6 +119,7 @@ class LinkShortenerController extends Controller
         ]);
     }
 
+    // This can be tested using Postman
     public function decodeAPI(Request $request)
     {
 
