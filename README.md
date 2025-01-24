@@ -105,6 +105,13 @@ Use a tool like Postman, or any HTTP client to interact with the API endpoints.
 
 ---
 
+## How to Run The Application's Tests
+
+To run the tests, run
+```bash
+ php artisan test --filter=LinkShortenerControllerTest
+```
+
 ## Notes
 1. If testing on web browser, simply type in your url and you'll see the result. (Route is in the web.php file)
 2. Ensure you add `/api/encode` OR `/api/decode` if testing with Postman. (Route is in the api.php file)

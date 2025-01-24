@@ -8,5 +8,5 @@ Route::post('/test', function () {
     return response()->json(['message' => 'Test route successful']);
 });
 
-Route::post('/encode', [LinkShortenerController::class, 'encodeAPI']);
-Route::post('/decode', [LinkShortenerController::class, 'decodeAPI']);
+Route::post('/encode', [LinkShortenerController::class, 'encodeAPI'])->name('encode.api');
+Route::post('/decode', [LinkShortenerController::class, 'decodeAPI'])->name('decode.api');
