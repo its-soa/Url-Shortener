@@ -95,7 +95,7 @@ class LinkShortenerControllerTest extends TestCase
 
 
     /**
-     * Test the /encode url via API.
+     * Test the /api/encode url via API.
      */
     public function test_encode_url_api()
     {
@@ -112,7 +112,6 @@ class LinkShortenerControllerTest extends TestCase
             'original_url' => $originalUrl
         ]);
 
-        // Verify database
         $this->assertDatabaseHas('short_urls', [
             'original_url' => $originalUrl
         ]);
@@ -120,7 +119,7 @@ class LinkShortenerControllerTest extends TestCase
 
 
     /**
-     * Test encode invalid url via API.
+     * Test /api/encode invalid url via API.
      */
     public function test_encode_invalid_url_api()
     {
@@ -137,7 +136,7 @@ class LinkShortenerControllerTest extends TestCase
 
 
     /**
-     * Test the /decode url via API.
+     * Test the /api/decode url via API.
      */
     public function test_decode_url_api()
     {
@@ -159,7 +158,7 @@ class LinkShortenerControllerTest extends TestCase
 
 
     /**
-     * Test the /decode non-exsisting url via API.
+     * Test the /api/decode non-exsisting url via API.
      */
     public function test_decode_false_url_api()
     {
