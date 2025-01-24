@@ -29,7 +29,7 @@ class LinkShortenerControllerTest extends TestCase
     }
 
     /**
-     * Test returns original route if duplicate.
+     * Test /encode returns original route if duplicate.
      */
     public function test_return_existing_short_url()
     {
